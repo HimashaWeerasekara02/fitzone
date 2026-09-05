@@ -33,13 +33,11 @@ if (!$post) {
             <img src="<?php echo $image_path; ?>" class="img-fluid rounded mb-4" alt="<?php echo htmlspecialchars($post['title']); ?>">
 
             <div class="mt-4 blog-content">
-                <?php 
-                
-                $clean_content = stripslashes($post['content']);
-                $content_with_placeholders = str_replace(['rnrn', 'rn'], ['[PARAGRAPH]', '[LINEBREAK]'], $clean_content);
-                $safe_content = htmlspecialchars($content_with_placeholders);
-                $final_content = str_replace(['[PARAGRAPH]', '[LINEBREAK]'], ["<br><br>", "<br>"], $safe_content);
-                echo $final_content;
+                <?php
+                $safe_content = htmlspecialchars($post['content']);
+                // Handle both literal escaped string \r\n from DB and actual newlines
+                $final_content = str_replace(['\r\n\r\n', '\r\n', '\n', '\r'], '<br>', $safe_content);
+                echo nl2br($final_content);
                 ?>
             </div>
             <a href="blog.php" class="btn btn-primary mt-5"><i class="fas fa-arrow-left"></i> Back to Blog</a>
