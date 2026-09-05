@@ -12,7 +12,7 @@ $result = $conn->query("SELECT * FROM memberships ORDER BY price ASC");
         <?php if($result && $result->num_rows > 0): ?>
             <?php while($plan = $result->fetch_assoc()): ?>
                 <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="card h-100 membership-card">
+                    <div class="card h-100 membership-card <?php echo $plan['is_popular'] ? 'popular-card' : ''; ?>">
                         <?php if($plan['is_popular']): ?>
                             <div class="popular-badge">Popular</div>
                         <?php endif; ?>
@@ -37,6 +37,30 @@ $result = $conn->query("SELECT * FROM memberships ORDER BY price ASC");
         <?php else: ?>
             <div class="col"><p class="text-center">Membership plan details are coming soon.</p></div>
         <?php endif; ?>
+        <?php endif; ?>
+    </div>
+
+    <!-- Why Choose FitZone Section -->
+    <div class="row mt-5 pt-5 border-top border-secondary">
+        <div class="col-12 text-center mb-5">
+            <h2 style="color: #00c7b3;">Why Choose FitZone?</h2>
+            <p class="text-muted">Experience the best fitness environment in the city.</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+            <i class="fas fa-dumbbell fa-3x mb-3" style="color: #00c7b3;"></i>
+            <h4 class="text-white">Premium Equipment</h4>
+            <p class="text-muted small">Access to state-of-the-art machines and free weights.</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+            <i class="fas fa-clock fa-3x mb-3" style="color: #00c7b3;"></i>
+            <h4 class="text-white">24/7 Access</h4>
+            <p class="text-muted small">Train whenever you want, day or night, fitting your schedule.</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+            <i class="fas fa-users fa-3x mb-3" style="color: #00c7b3;"></i>
+            <h4 class="text-white">Expert Trainers</h4>
+            <p class="text-muted small">Get guidance from certified professionals to reach your goals.</p>
+        </div>
     </div>
 </div>
 

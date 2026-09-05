@@ -177,6 +177,19 @@ body {
     font-size: 0.8rem;
 }
 
+.popular-card {
+    transform: scale(1.05);
+    border: 2px solid #00c7b3 !important;
+    box-shadow: 0 10px 30px rgba(0, 199, 179, 0.2);
+    z-index: 10;
+}
+
+@media (max-width: 991px) {
+    .popular-card {
+        transform: scale(1);
+    }
+}
+
 .blog-card-img-top {
     height: 200px;
     object-fit: cover;
