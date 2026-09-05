@@ -12,7 +12,7 @@ $result = $conn->query($sql);
 ?>
 
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="color: #00c7b3;">FitZone Blog: Your Guide to Wellness</h1>
+    <h1 class="text-center mb-4">FitZone Blog: Your Guide to Wellness</h1>
     <p class="text-center mb-5">Discover workout routines, healthy recipes, meal plans, and inspiring success stories.</p>
 
     <div class="row justify-content-center mb-5">

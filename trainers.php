@@ -19,7 +19,7 @@ $result = $conn->query("SELECT * FROM trainers");
 ?>
 
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="color: #00c7b3;">Meet Our Trainers</h1>
+    <h1 class="text-center mb-4">Meet Our Trainers</h1>
     <p class="text-center mb-5">Our certified and experienced trainers are here to guide and motivate you on your fitness journey.</p>
     
     <?php if(isset($_GET['status']) && $_GET['status'] == 'requested'): ?>
@@ -44,10 +44,10 @@ $result = $conn->query("SELECT * FROM trainers");
                             
                             <ul class="trainer-details text-left flex-grow-1">
                                 <?php if(!empty($trainer['certifications'])): ?>
-                                <li><i class="fas fa-certificate" style="color: #00c7b3;"></i> <?php echo htmlspecialchars($trainer['certifications']); ?></li>
+                                <li><i class="fas fa-certificate"></i> <?php echo htmlspecialchars($trainer['certifications']); ?></li>
                                 <?php endif; ?>
                                 <?php if(!empty($trainer['price_per_hour'])): ?>
-                                <li><i class="fas fa-dollar-sign" style="color: #00c7b3;"></i> $<?php echo htmlspecialchars($trainer['price_per_hour']); ?>/hour</li>
+                                <li><i class="fas fa-dollar-sign"></i> $<?php echo htmlspecialchars($trainer['price_per_hour']); ?>/hour</li>
                                 <?php endif; ?>
                             </ul>
 

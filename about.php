@@ -23,12 +23,12 @@
 
 <div class="mission-section">
     <div class="container">
-        <h2 class="text-center mb-5" style="color: #00c7b3;">Our Mission & Values</h2>
+        <h2 class="text-center mb-5">Our Mission & Values</h2>
         <div class="row text-center">
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <i class="fas fa-bullseye fa-3x mb-3" style="color: #00c7b3;"></i>
+                        <i class="fas fa-bullseye fa-3x mb-3"></i>
                         <h5 class="card-title">Mission</h5>
                         <p class="card-text">To empower individuals to achieve their fitness and wellness goals in a supportive and motivating environment.</p>
                     </div>
@@ -37,7 +37,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <i class="fas fa-fire-alt fa-3x mb-3" style="color: #00c7b3;"></i>
+                        <i class="fas fa-fire-alt fa-3x mb-3"></i>
                         <h5 class="card-title">Passion</h5>
                         <p class="card-text">We are passionate about fitness and dedicated to sharing our knowledge and enthusiasm with every member.</p>
                     </div>
@@ -46,7 +46,7 @@
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <i class="fas fa-users fa-3x mb-3" style="color: #00c7b3;"></i>
+                        <i class="fas fa-users fa-3x mb-3"></i>
                         <h5 class="card-title">Community</h5>
                         <p class="card-text">We foster a welcoming and inclusive community where everyone feels a sense of belonging.</p>
                     </div>

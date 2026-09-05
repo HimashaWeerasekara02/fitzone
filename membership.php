@@ -5,7 +5,7 @@ $result = $conn->query("SELECT * FROM memberships ORDER BY price ASC");
 ?>
 
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="color: #00c7b3;">Flexible Membership Plans</h1>
+    <h1 class="text-center mb-4">Flexible Membership Plans</h1>
     <p class="text-center mb-5">Choose the plan that fits your lifestyle and start your fitness journey today!</p>
     
     <div class="row justify-content-center">

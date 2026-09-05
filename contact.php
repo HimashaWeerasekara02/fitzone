@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_SESSION['user_id'])) {
 ?>
 
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="color: #00c7b3;">Contact Us</h1>
+    <h1 class="text-center mb-4">Contact Us</h1>
     <p class="text-center mb-5">Have a question or want to learn more? Send us a message or visit us in person!</p>
 
     <div class="row">

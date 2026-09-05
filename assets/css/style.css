@@ -102,7 +102,8 @@ body {
 }
 
 .about-section .about-text h2 {
-    color: #00c7b3;
+    color: #e6f1ff;
+    font-weight: 700;
 }
 
 .mission-section {
@@ -123,7 +124,8 @@ body {
 }
 
 .card-title {
-    color: #00c7b3; 
+    color: #e6f1ff; 
+    font-weight: 600;
 }
 
 .class-card .card-img-top {

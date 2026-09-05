@@ -5,7 +5,7 @@ $result = $conn->query("SELECT * FROM classes");
 ?>
 
 <div class="container my-5">
-    <h1 class="text-center mb-4" style="color: #00c7b3;">Our Classes</h1>
+    <h1 class="text-center mb-4">Our Classes</h1>
     <p class="text-center mb-5">Find the perfect class to fit your goals and schedule. We offer a variety of options for all fitness levels.</p>
     
     <div class="row">
