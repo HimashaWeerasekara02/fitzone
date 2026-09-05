@@ -37,7 +37,6 @@ $result = $conn->query("SELECT * FROM memberships ORDER BY price ASC");
         <?php else: ?>
             <div class="col"><p class="text-center">Membership plan details are coming soon.</p></div>
         <?php endif; ?>
-        <?php endif; ?>
     </div>
 
     <!-- Why Choose FitZone Section -->
