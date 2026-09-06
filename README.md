@@ -5,6 +5,9 @@
 
 A full-stack gym management platform that combines a public-facing fitness website with secure internal portals for staff and members. Built with a monolithic architecture using PHP and MySQL.
 
+## 🎥 Video Demonstration
+**[Watch the FitZone Web App Demo on YouTube](https://youtu.be/N5mEw4pj8W4)**
+
 ## 🏋️ Key Features
 * **Member Portal:** User authentication, personalized dashboards, and membership tier registration.
 * **Admin Dashboard:** Centralized control for managing users, approving classes, and overseeing trainers.
