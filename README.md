@@ -46,8 +46,8 @@ For testing the dashboard functionalities locally, use the following default cre
 
 **Admin Account:**
 * **Email:** admin@fitzone.com
-* **Password:** admin123
+* **Password:** password
 
 **Trainer/Staff Account:**
-* **Email:** trainer@fitzone.com
-* **Password:** trainer123
+* **Email:** staff@fitzone.com
+* **Password:** password
