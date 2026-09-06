@@ -1,5 +1,8 @@
 # FitZone - Gym & Fitness Center Management System
 
+### 📌 Project Scope & Scenario
+*This project was developed to fulfill a specific academic coursework scenario. The implementation is strictly scoped to the assignment requirements, prioritizing role-based access control, database management, and UI consistency over live payment integrations.*
+
 A full-stack gym management platform that combines a public-facing fitness website with secure internal portals for staff and members. Built with a monolithic architecture using PHP and MySQL.
 
 ## 🏋️ Key Features
@@ -37,3 +40,14 @@ A full-stack gym management platform that combines a public-facing fitness websi
 
 5. **Run the Application**
    Open your browser and navigate to `http://localhost/fitzone/index.php`.
+
+## 🔐 Default Testing Credentials
+For testing the dashboard functionalities locally, use the following default credentials:
+
+**Admin Account:**
+* **Email:** admin@fitzone.com
+* **Password:** admin123
+
+**Trainer/Staff Account:**
+* **Email:** trainer@fitzone.com
+* **Password:** trainer123
