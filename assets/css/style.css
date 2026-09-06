@@ -302,3 +302,45 @@ footer {
 .modal-title {
     color: #00c7b3; 
 }
+
+/* Modern Button Overrides */
+.btn {
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1.25rem;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    background-color: #00c7b3;
+    border-color: #00c7b3;
+    color: #112240;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #00e6cf !important;
+    border-color: #00e6cf !important;
+    color: #112240 !important;
+    box-shadow: 0 4px 15px rgba(0, 199, 179, 0.4) !important;
+}
+
+.btn-secondary {
+    background-color: #233554;
+    border-color: #233554;
+    color: #ccd6f6;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #2a4168 !important;
+    border-color: #2a4168 !important;
+    color: #fff !important;
+}
