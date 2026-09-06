@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="col-lg-7 pl-lg-5 about-text">
-                <h2>About FitZone Fitness Center</h2>
+                <h1 class="text-center mb-4">About FitZone Fitness Center</h1>
                 <p class="lead">We are more than just a gym; we are a community dedicated to a holistic approach to wellness, encompassing physical, mental, and emotional health.</p>
                 <p>Our <b>state-of-the-art facility</b> boasts <b>cutting-edge equipment</b>, a wide array of fitness programs, and a team of passionate, certified trainers. We continually invest in the latest fitness technology to ensure you have access to the best tools for your workout. Whether you're a beginner or an experienced athlete, we have something for everyone. From exhilarating group classes to personalized one-on-one training and comprehensive nutrition counseling, FitZone is committed to helping you achieve your fitness goals.</p>
                 <p>Join our vibrant community and discover a supportive environment where motivation thrives and results are celebrated. Let's build a stronger, healthier you, together!</p>
